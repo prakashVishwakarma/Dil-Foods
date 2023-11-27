@@ -23,7 +23,7 @@ export default function Home() {
         <BannerCard
           key={`banner--key${banner[0].id}`}
           banner={banner[0]}
-          href={'/'||`${ROUTES.COLLECTIONS}/${banner[0].slug}`}
+          href={'/' || `${ROUTES.COLLECTIONS}/${banner[0].slug}`}
           className="mb-12 lg:mb-14 xl:mb-16 pb-0.5 lg:pb-1 xl:pb-0"
         />
         <BannerWithProducts
